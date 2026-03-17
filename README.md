@@ -91,7 +91,7 @@ Los inputs:
 
 - **button**: boton para clickear sobre el
 
--**hidden**: para crear algo que no es visibles
+- **hidden**: para crear algo que no es visibles
 
 Y los atributos que los pueden acompañar: id, name, value, y placeholder.
 
