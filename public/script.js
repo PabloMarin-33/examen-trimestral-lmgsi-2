@@ -25,6 +25,8 @@ fetch("/api/mensajes")
     });
 })
 
+document
+
 app.get("/api/mensajes", (req, res ) => {
   res.json(mensaje)
 })
