@@ -59,9 +59,43 @@ Puedes responder a estas preguntas en este mismo archivo.
 <link href="http://example.org">Entrar a mi sitio web</link>
 ```
 
+> Falta el atributo
+
 2. ¿Que es una promesa? ¿Como se relaciona con la asincronia en javascript?
+
+Una promesa en **JavaScript** es un objeto que representa el resultado de una operacin que se completara en el futuro, y se relaciona a traves de la asincronia debido a que, a traves de promesas se maneja principalmente la asincronia.
+
 3. ¿Qué es el protocolo HTTP y cuáles son sus métodos más comunes? ¿Como se relaciona con html y javascript?
+
+El protocolo **HTTP** es un sistema de reglas que permite la comunicacion entre un cliente (desde un navegador) y un servidor web. Sus metodos mas comunes son:
+
+- **GET**: Para pedir o recoger informacion.
+
+- **POST**:  Para enviar informacion y crear algo nuevo.
+
+- **PUT**: Para actualizar datos.
+
+- **DELETE**: Borrar datos.
+
+Y se relaciona a traves de html porque es a traves de estos metodos que podemos relacionar y con HTML y js para el funcionamiento de cualquiera pagina web
+
 4. ¿Que tipos de inputs conoces? Citalos y describe que atributos pueden acompañar cada uno.
+
+Los inputs:
+
+- **text**: para introducir texo corto
+
+- **date**: para seleccionar la fecha
+
+- **checkbox**: para seleccionar varias opciones
+
+- **button**: boton para clickear sobre el
+
+-**hidden**: para crear algo que no es visibles
+
+Y los atributos que los pueden acompañar: id, name, value, y placeholder.
+
+
 
 ## Extra (1 punto)
 
