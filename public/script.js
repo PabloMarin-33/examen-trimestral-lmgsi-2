@@ -25,7 +25,34 @@ fetch("/api/mensajes")
     });
 })
 
-document
+const crear = document.querySelector("#CrearUsuario")
+
+crear.addEventListener("submit", (i)=>{
+
+i.preventDefault()
+
+const datos = {
+id: document.querySelector("#id").value,
+usuario: document.querySelector("#usuario").value,
+contenido: document.querySelector("#contenido").value,
+fecha: document.querySelector("#fecha").value,
+}
+
+fetch("/api/mensajes", {
+
+    method:"POST" ,
+    headers:{
+        "Content-Type":"application/json"
+    },
+    body: JSON.stringify(datos)
+})
+.then(res => res.json())
+.then(data => {
+
+document.querySelector("#respuesta")
+})
+
+})
 
 app.get("/api/mensajes", (req, res ) => {
   res.json(mensaje)
